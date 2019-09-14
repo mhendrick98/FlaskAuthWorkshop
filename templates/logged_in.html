@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+{% if user %}
+<p>Logged in as {{ user }}</p>
+{% else %}
+<a href="/"><button>You need to log in!</button></a>
+{% endif %}
+
+
+</body>
+</html>
